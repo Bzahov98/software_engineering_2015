@@ -1,0 +1,21 @@
+a = ARGV[0].to_i
+b = ARGV[1].to_iъве
+c = ARGV[2].to_i
+
+d = ( b*b ) +( 4*a*c )
+
+   if d < 0 
+	puts "Not exist ! "
+   end
+
+   if d == 0
+	x = (-b)/(2*a)
+	puts x
+   end
+
+   if d > 0 
+	x1 = ((-b) + (d*d) )/(2*a)
+	puts x1
+	x2 = ((-b) - (d*d) )/(2*a)	
+	puts x2
+   end
